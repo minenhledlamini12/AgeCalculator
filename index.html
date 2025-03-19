@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAlpha Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo-frame">
+            <img src="codealpha.jpg" alt="CodeAlpha Logo">
+        </div>
+        <div class="title-frame">
+            <h1>CodeAlpha Age Calculator</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="description-frame">
+            <h2>Welcome to CodeAlpha's Age Calculator</h2>
+            <p>This tool allows you to easily calculate your age by entering your date of birth. Simply input your day, month, and year, and click "Calculate Age" to find out how old you are today.</p>
+        </section>
+
+        <form id="ageForm">
+            <label for="day">Day:</label>
+            <input type="number" id="day" min="1" max="31" required><br>
+
+            <label for="month">Month:</label>
+            <input type="number" id="month" min="1" max="12" required><br>
+
+            <label for="year">Year:</label>
+            <input type="number" id="year" min="1900" max="2024" required><br>
+
+            <button type="submit">Calculate Age</button>
+        </form>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+      <div class = "container">
+        <div class = "company">
+          <h3>Company</h3>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Services</p>
+          <P>Affiliate Program</P>
+        </div>
+
+        <div class = "services">
+          <h3>Our Services</h3>
+          <p>Internship Roadmap</p>
+          <p>Internship Program</p>
+          <p>Ambassador Program</p>
+          <p>Web Development</p>
+          <p>App Development</p>
+          <p>Online Courses</p>
+
+        </div>
+
+        <div class = "quicklink">
+          <h3>Quick Link</h3>
+          <p>Privacy Policy</p>
+          <p>Terms and Conditions</p>
+          <p>Live Chat</p>
+          <p>FAQ</p>
+        </div>
+
+        <div class ="follow">
+          <h3>Follow Us</h3>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fas fa-paper-plane"></i></a>  <!-- Telegram icon -->
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
